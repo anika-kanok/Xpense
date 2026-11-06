@@ -6,6 +6,8 @@
 
 .container{
     margin: 0 auto;
+    width: 100%;
+    max-width: 1320px;
 }
 
 h2{
@@ -28,10 +30,45 @@ ul li{
     background-image: url(./image/Banner.png);
     height: 750px;
 
-    .container{
+    .bannerpart{
+       display: flow-root;
+       position: relative;
+        .bannertop{
+            width: 920px;
+            height: 324px;
+            text-align: center;
+            margin-left: 260px;
+       
+            margin-top:120px;
+            line-height: 80px;
+            position: relative;
+            z-index: 2;
+            h1{
+                font-size: 72px;
+                font-weight: 700;
+                line-height: 100%;
+            }
+
+            p{
+                font-size: 36px;
+            }
+
+            button{
+                background-color: white;
+                border:none;
+                color:#FF7235;
+                padding:12px;
+                border-radius:8px;
+                font-size: 18px;
+                 
+            }
+        }
           .bannerbottom{
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
+            position: relative; 
+            z-index: 1;
+            margin-top: -100px;
             img{
                 width: 445px;
                 height: 339px;
