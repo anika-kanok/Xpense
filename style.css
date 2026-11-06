@@ -15,6 +15,7 @@ h2{
 
 ul li{
     list-style-type: none;
+
 }
 
 
@@ -23,6 +24,23 @@ ul li{
 /* header section end here */
 
 /* banner section start here */
+  .banner{
+    background-image: url(./image/Banner.png);
+    height: 750px;
+
+    .container{
+          .bannerbottom{
+            display: flex;
+            justify-content: space-around;
+            img{
+                width: 445px;
+                height: 339px;
+            }
+          }
+        
+        
+    }
+  }
 /* banner section end here */
 
 
@@ -30,7 +48,6 @@ ul li{
 
 .footer{
     height: 530px;
-    border: 2px solid red;
     background-color:white;
 
     .foot{
@@ -38,6 +55,7 @@ ul li{
         justify-content: space-evenly;
         margin-top: 78px;
         border-bottom: 2px solid  #2928303f;
+        padding-bottom: 50px;
        
     }
     .logo{
@@ -51,6 +69,11 @@ ul li{
        display: flex;
        flex-direction: column;
        row-gap: 20px;
+       ul{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+       }
        ul li a{
         list-style-type: none;
         text-decoration: none;
@@ -71,18 +94,40 @@ ul li{
        row-gap: 20px;
        p{
         font-size: 20px;
-        color: #BDBDBD;
+        color: #a4a0a0ce;
        }
 
        .search-box{
+            display: flex;
+            align-items: center;
+            width: 350px;
+            border: 1px solid black;
+            border-radius: 8px;
+            padding:2px 0px;
             input{
-                padding:10px 32px;
+                padding:8px 32px;
+                border:2px solid black;
+                border: none;
             }
-       }
+
+            button{
+                padding:8px 30px;
+                border: 2px solid black;
+                border: none;
+                background-color: #FF7235;
+                color:white;
+                border-radius: 8px;
+            }
+
+        }
+        .paragraphone{
+            font-size:14px;
+        }
     }
     .term{
         display: flex;
         justify-content: space-around;
+        margin-top: 20px;
         .privacy{
             display: flex;
             p{
