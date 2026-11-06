@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+
+
+/* footer part start here */
+
+.footer{
+    height: 530px;
+    border: 2px solid red;
+    background-color:white;
+
+    .foot{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 78px;
+        border-bottom: 2px solid  #2928303f;
+       
+    }
+    .logo{
+        img{
+           width: 112px;
+           height: 40px;
+        }
+
+    }
+    .link{
+       display: flex;
+       flex-direction: column;
+       row-gap: 20px;
+       ul li a{
+        list-style-type: none;
+        text-decoration: none;
+        color: black;
+        gap:20px;
+       }
+    }
+   
+    .legal{
+       display: flex;
+       flex-direction: column;
+       row-gap: 20px;
+    }
+
+    .new{
+        display: flex;
+       flex-direction: column;
+       row-gap: 20px;
+       p{
+        font-size: 20px;
+        color: #BDBDBD;
+       }
+
+       .search-box{
+            input{
+                padding:10px 32px;
+            }
+       }
+    }
+    .term{
+        display: flex;
+        justify-content: space-around;
+        .privacy{
+            display: flex;
+            p{
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+
+        .copyright{
+            p{
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+        
+        
+            .social{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap:24px;
+                
+        
+                div{
+                    display: grid;
+                    height: 20px;
+                    width: 20px;
+                    border-radius: 2px;
+                    background-color: black;
+                   i{
+                    justify-self: center;
+                    align-self: center;
+        
+                   }
+                }
+            }
+    }
+}
+/* footer part end here */
