@@ -28,9 +28,9 @@ ul li{
 /* plant section start here */
 .plan{
     height: 900px;
-    display: flex;
-    flex-direction: column;
-    gap:80px;
+    margin-top: 124px;
+    display: flow-root;
+    border:1px solid red;
 
     .your{
         h1{
@@ -41,11 +41,16 @@ ul li{
     }
 
     .all-plan{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap:20px;
         .card-plan{
             width: 350px;
             height: 500px;
             border:3px solid #eeeeeebb;
             border-radius: 8px;
+    
             .cardpro{
                 margin-top: 41px;
                 margin-left: 42px;
@@ -82,16 +87,25 @@ ul li{
 
             .garay{
                 font-size: 19px;
-                background-color: white;
+                color: #BDBDBD;
             }
 
             button{
-                /* background-color: white; */
+                background-color: white;
                 padding:12px 24px;
-                /* border:2px solid #FF7235; */
+                border:2px solid #FF7235;
                 color: #FF7235;
-                border: 8px;
+                border-radius:10px;
             }
+
+            .orrange{
+                background-color: #FF7235;
+                color:white;
+            }
+        }
+
+        .card-plan2{
+             box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
         }
     }
 
