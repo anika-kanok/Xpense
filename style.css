@@ -25,6 +25,170 @@ ul li{
 
 /* header section end here */
 
+/* plant section start here */
+.plan{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+
+    .your{
+        h1{
+            text-align: center;
+            font-size: 72px;
+            font-weight: 700;
+        }
+    }
+
+    .all-plan{
+        .card-plan{
+            width: 350px;
+            height: 500px;
+            border:3px solid #eeeeeebb;
+            border-radius: 8px;
+            .cardpro{
+                margin-top: 41px;
+                margin-left: 42px;
+                line-height: 50px;
+            }
+            img{
+                height: 24px;
+                width: 24px;
+            }
+
+            h2{
+                font-size: 32px;
+                font-weight: 600;
+            }
+
+            p{
+                font-size: 18px;
+                font-weight: 400;
+                img{
+                    height: 13px;
+                    width: 17px;
+                }
+
+            }
+            h4{
+                font-size: 24px;
+                font-weight: 700;
+
+                span{
+                    color:#BDBDBD;
+                    font-size: 20px;
+                }
+            }
+
+            .garay{
+                font-size: 19px;
+                background-color: white;
+            }
+
+            button{
+                /* background-color: white; */
+                padding:12px 24px;
+                /* border:2px solid #FF7235; */
+                color: #FF7235;
+                border: 8px;
+            }
+        }
+    }
+
+}
+/* plant section end here */
+
+/* wisher section start here */
+   .wisher{
+    height: 800px;
+    gap:80px;
+    display: flex;
+    flex-direction: column;
+  
+    .wisherbox{
+        margin-top: 121px;
+
+        .milions{
+            height: 192px;
+            width: 920px;
+            font-size: 96px;
+            font-weight: 700;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+    }
+    
+    .card-section{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        overflow-x: auto;
+        width: 100%;
+        scrollbar-width: none;
+        .card{
+            border: 1px solid rgba(128, 128, 128, 0.403);
+            border-top: 10px solid #4756DF;
+            border-radius: 12px;
+            height: 250px;
+            width: 350px;
+            flex-shrink: 0;
+            .text{
+                margin: 26px 28px;
+                
+            }
+            .text P{
+                font:18px;
+                font-weight: 400;
+            }
+
+            .card-icon{
+                  display: flex;
+                  align-items: center;
+                  gap:10px;
+                  margin: 26px 28px;
+                img{
+                    height:30px;
+                    width:30px;
+                }
+
+                p{
+                    font-size: 16px;
+                    font-weight: 700;
+                    
+                }
+
+                span{
+                    color:#BDBDBD;
+                    font: 16px;
+                    font-weight: 400;
+                }
+            }
+
+          
+        }
+
+        .card2{
+            border-top: 10px solid #FFBE21;
+        }
+
+        .card3{
+            border-top: 10px solid #3EC1F3;
+        }
+
+        .card4{
+            border-top: 10px solid #FF7235;
+        }
+
+        .card5{
+            border-top: 10px solid #BB7259;
+        }
+
+
+    }
+   }
+/* wisher section end here */
+
 /* banner section start here */
   .banner{
     background-image: url(./image/Banner.png);
