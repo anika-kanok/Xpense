@@ -25,6 +25,81 @@ ul li{
 
 /* header section end here */
 
+/* Product section start here */
+   .product-section{
+     display: flex;
+     flex-direction: column;
+     row-gap: 120px;
+
+    .work{
+        height: 192px;
+        width: 1110px;
+        margin-top: 139px;
+        margin-left: 165px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    h1{
+        font-size: 96px;
+        font-weight: bold;
+    }
+
+    div{
+        width: 350px;
+        height: 156px;
+        color:#BDBDBD;
+        font-size: 24px;
+        font-weight:400;
+    }
+    }
+
+    .card-box{
+       display: flex;
+       justify-content: center;
+       gap:20px;
+        
+        .box{
+            height: 350px;
+            width: 350px;
+            padding:63px 65px;
+            box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
+            border-radius: 50px;  
+            display: flex;
+            flex-direction: column;
+            GAP:20px;
+            justify-content: center;
+            align-items: center;
+            .icon-box{
+                height: 64px;
+                width: 64px;
+                background-color: #e2598b32;
+                border-radius: 50px;
+                display: flex;
+                justify-content:center ;
+                align-items: center;
+                i{
+                    height: 24px;
+                    width: 24px;
+                }
+            }
+            .icon-box2{
+                background-color: #ffbe7469;
+            }
+            .icon-box3{
+                background-color: #4d12ee48;
+            }
+
+            .para{
+                width: 220px;
+                height: 46px;
+                text-align: center;
+            }
+        }
+    }
+   }
+/* Product section end here */
+
+
 /* plant section start here */
 .plan{
     height: 900px;
